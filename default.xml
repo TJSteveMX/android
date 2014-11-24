@@ -558,6 +558,5 @@
   <project path="kernel/samsung/klte" name="Team-Hydra/android_kernel_samsung_klte" />
   <project path="device/samsung/klte" name="OwnROM/android_device_samsung_klte" />
   <project path="device/samsung/klte-common" name="OwnROM/android_device_samsung_klte-common" />
-  <project path="device/samsung/msm8974-common" name="Team-Hydra/android_device_samsung_msm8974-common" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
 </manifest>
