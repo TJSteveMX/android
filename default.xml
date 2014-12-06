@@ -556,7 +556,7 @@ sync-j="4" />
 <project path="vendor/cm" name="OwnROM/android_vendor_ownrom" />
 <project path="vendor/samsung" name="OwnROM/android_vendor_samsung" />
 <project path="device/samsung/qcom-common" name="Team-Hydra/android_device_samsung_qcom-common" />
-<project path="kernel/samsung/klte" name="OwnROM/Own_kernel_samsung_klte" />
+<project path="kernel/samsung/klte" name="Team-Hydra/android_kernel_samsung_klte" />
 <project path="device/samsung/klte" name="OwnROM/android_device_samsung_klte" />
 <project path="device/samsung/klte-common" name="OwnROM/android_device_samsung_klte-common" />
 <project path="device/samsung/msm8974-common" name="Team-Hydra/android_device_samsung_msm8974-common" />
