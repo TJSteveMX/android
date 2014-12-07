@@ -552,6 +552,5 @@ sync-j="4" />
 <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
 <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
 <project path="vendor/ownrom" name="OwnROM/android_vendor_ownrom" />
-<project path="vendor/cm" name="Team-Hydra/android_vendor_cm" />
 <project path="vendor/samsung" name="OwnROM/android_vendor_samsung" />
 </manifest>
