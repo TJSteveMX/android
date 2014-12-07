@@ -26,13 +26,13 @@ May speed up a little, but prepare to wait long time...
 If the sync is done,
 Get the pre-builts by:
 
-    cd vendor/cm
+    cd vendor/ownrom
     ./get-prebuilts
 
 Get the device specific trees by:
 
     cd ../../
-    . build/envsetup.sh
+    . build/ownrom.sh
     breakfast <device-codename>
 This wil download the device and kernel trees...
 
