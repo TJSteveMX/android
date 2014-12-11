@@ -171,7 +171,7 @@ sync-j="4" />
 <project path="external/icu" name="platform/external/icu" groups="pdk" remote="ln" revision="refs/tags/android-5.0.1_r1" />
 <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" remote="ln" revision="refs/tags/android-5.0.1_r1" />
 <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs" remote="ln"revision="refs/tags/android-5.0.1_r1" />
+<project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs" remote="ln" revision="refs/tags/android-5.0.1_r1" />
 <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs" remote="ln" revision="refs/tags/android-5.0.1_r1" />
 <project path="external/jack" name="platform/external/jack" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
 <project path="external/JakeWharton/butterknife" name="CyanogenMod/android_external_JakeWharton_butterknife" />
