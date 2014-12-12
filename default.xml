@@ -28,7 +28,7 @@ sync-j="4" />
 
 <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
 <project path="art" name="platform/art" groups="pdk" remote="ln" revision="refs/tags/android-5.0.1_r1" />
-<project path="bionic" name="platofrm/bionic" groups="pdk" remote="ln" revision="refs/tags/android-5.0.1_r1" />
+<project path="bionic" name="platofrm/bionic" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
 <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
 <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
 <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="ln" revision="refs/tags/android-5.0.1_r1" />
