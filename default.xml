@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<!--Google -->
 <remote name="aosp"
 fetch="https://android.googlesource.com"
 review="android-review.googlesource.com" />
 
+<!--GitHub -->
 <remote name="github"
 fetch=".."
 review="review.cyanogenmod.org" />
 
+<!--Priv. -->
 <remote name="private"
 fetch="ssh://git@github.com" />
 
+<!--Google -->
 <remote name="ln"
 fetch="git://android.git.linaro.org" />
 
