@@ -15,6 +15,10 @@ fetch="ssh://git@github.com" />
 <remote name="ln"
 fetch="git://android.git.linaro.org" />
 
+ <!-- SlimRoms -->
+<remote name="slim"
+fetch="git://github.com/SlimRoms" />
+
 <default revision="refs/heads/cm-12.0"
 remote="github"
 sync-c="true"
@@ -453,7 +457,7 @@ sync-j="4" />
 <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
 <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
 <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
-<project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" />
+<project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="slim" revision="lp5.0" />
 <project path="packages/inputmethods/OpenWnn" name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
 <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
 <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
