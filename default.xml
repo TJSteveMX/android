@@ -32,7 +32,7 @@ sync-j="4" />
 <copyfile src="core/root.mk" dest="Makefile" />
 </project>
 
-<project path="android" name="OwnROM/android" revision="lp5.0" />
+<project path="android" name="OwnROM/android" />
 <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
 <project path="art" name="platform/art" groups="pdk" remote="ln" revision="refs/tags/android-5.0.1_r1" />
 <project path="bionic" name="platform/bionic" groups="pdk" remote="ln" revision="refs/tags/android-5.0.1_r1" />
