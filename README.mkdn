@@ -24,11 +24,6 @@ Adding a flag like:
 May speed up a little, but prepare to wait long time...
 
 If the sync is done,
-Get the pre-builts by:
-
-    cd vendor/ownrom
-    ./get-prebuilts
-
 Get the device specific trees by:
 
     cd ../../
