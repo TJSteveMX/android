@@ -414,7 +414,7 @@ sync-j="4" />
 <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
 <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
 <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
-<project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
+<project path="packages/apps/Calculator" name="OwnROM/android_packages_apps_Calculator" />
 <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
 <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
 <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
@@ -559,8 +559,4 @@ sync-j="4" />
 <project path="vendor/ownrom" name="OwnROM/android_vendor_ownrom" />
 <project path="vendor/samsung" name="OwnROM/android_vendor_samsung" />
 <project path="kernel/samsung/klte" name="OwnROM/OwnKernel-SGS5" />
-<project name="OwnROM/android_device_lge_hammerhead" path="device/lge/hammerhead" />
-  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-12.0" />
-  <project name="CyanogenMod/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="cm-12.0" />
-  <project name="OwnROM/android_device_qcom_common" path="device/qcom/common" remote="github" />
 </manifest>
