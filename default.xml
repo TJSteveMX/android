@@ -12,6 +12,12 @@ review="review.cyanogenmod.org" />
 <remote name="private"
 fetch="ssh://git@github.com" />
 
+<remote name="gh"
+fetch="https://github.com/" />
+
+<remote name="slim"
+fetch="git://github.com/SlimRoms" />
+
 <remote name="ln"
 fetch="git://android.git.linaro.org" />
 
@@ -43,16 +49,9 @@ sync-j="4" />
 <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" groups="pdk" />
 <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" groups="pdk" />
 <project path="device/generic/mips" name="CyanogenMod/android_device_generic_mips" groups="pdk" />
-<project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
 <project path="device/generic/qemu" name="device/generic/qemu" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
 <project path="device/generic/x86" name="device/generic/x86" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
 <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
 <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
 <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
 <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
@@ -234,7 +233,7 @@ sync-j="4" />
 <project path="external/libxml2" name="CyanogenMod/android_external_libxml2" groups="pdk-cw-fs" />
 <project path="external/libxslt" name="CyanogenMod/android_external_libxslt" />
 <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<project path="external/linux-tools-perf" name="CyanogenMod/android_external_linux-tools-perf" groups="pdk-cw-fs" />
+<project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" groups="pdk-cw-fs" remote="ln" revision="refs/tags/android-5.0.1_r1" />
 <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" />
 <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
 <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
@@ -304,7 +303,7 @@ sync-j="4" />
 <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
 <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
 <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" />
-<project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
+<project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="ln" revision="refs/tags/android-5.0.1_r1" />
 <project path="external/strace" name="CyanogenMod/android_external_strace" groups="pdk-cw-fs" />
 <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
 <project path="external/svox" name="CyanogenMod/android_external_svox" groups="pdk-cw-fs" />
@@ -409,7 +408,7 @@ sync-j="4" />
 <project path="libcore" name="CyanogenMod/android_libcore" />
 <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
 <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
+<project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" />
 <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
 <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
 <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
@@ -419,6 +418,7 @@ sync-j="4" />
 <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
 <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
 <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
+<!-- <project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" /> -->
 <project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" />
 <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
 <!-- <project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" /> -->
@@ -427,7 +427,7 @@ sync-j="4" />
 <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
 <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
 <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" />
-<project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
+<project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" />
 <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
 <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
 <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
@@ -437,9 +437,9 @@ sync-j="4" />
 <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
 <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms-caf" />
 <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
-<project path="packages/apps/OMA-DM" name="CyanogenMod/android_packages_apps_OMA-DM" />
 <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
 <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
+<project path="packages/apps/PerformanceControl" name="omnirom/android_packages_apps_PerformanceControl" remote="gh" revision="android-5.0" />
 <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
 <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
 <project path="packages/apps/Settings" name="OwnROM/android_packages_apps_Settings" />
@@ -455,7 +455,7 @@ sync-j="4" />
 <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
 <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
 <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
-<project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" />
+<project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="slim" revision="lp5.0" />
 <project path="packages/inputmethods/OpenWnn" name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
 <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
 <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
