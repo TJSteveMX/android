@@ -1,3 +1,72 @@
 # android
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/OwnROM/android?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+OwnROM
+---------------
+
+Building instructions:
+---------------
+
+To get started with Android/OwnROM, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the OwnROM trees, use these commands:
+
+    cd Desktop
+    mkdir OwnROM
+    cd OwnROM
+    repo init -u git://github.com/OwnROM/android.git -b cm-12.0
+    
+Then sync up with:
+
+    repo sync
+
+Adding a flag like:
+
+    repo sync -j4, -j8, -j16
+May speed up a little, but prepare to wait long time...
+
+If the sync is done,
+Get the device specific trees by:
+
+    cd ../../
+    . build/ownrom.sh
+    breakfast <device-codename>
+This wil download the device and kernel trees...
+
+After that:
+Now ensure that your device is connected to your computer via the USB cable and that you have ADB properly installed and enabled on your device...
+
+    cd device/<manufacturer>/<device-codename>
+    ./extract-files.sh
+
+Time to start building OwnROM! So now make the commands:
+
+    croot
+    brunch <device-codename>
+
+Tips
+---------------
+
+You can speed up subsequent builds by adding this command in terminal:
+
+    export USE_CCACHE=1
+
+If you want to build for only one device at a time:
+
+    prebuilts/misc/linux-x86/ccache/ccache -M 50G
+If you want to build for 2 at the same time: -M 75G and 3: -M 100G
+
+(didn't i just make it easy for ya?)
+
+Contribute:
+---------------
+
+ Want to contribute? Heres how:
+
+
+   Join our [Google+ Community](https://plus.google.com/communities/108869588356214314591): This is a great way to help spread the word about this project and to also get in touch with other users of this rom, to get help and more.
+   Follow us on [OwnDroid.nl](http://owndroid.nl/), [Facebook](https://www.facebook.com/OwnDroid.nl), [Twitter](https://twitter.com/Own_Droid) or subscribe to our [RSS feed](http://ownrom.blogspot.com/feeds/posts/default): This is simular to joining our Google+ community because you will help support our project and get our project out there.
+   Donations: This would help to support the project buy being able to pay for the costs of running this project (Severs, Mirrors, Etc.) and to also to improve on them.[Donation Link](https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=3ZzR0UU_5yrJX3WL2IxRv4hEiudP8MCNQNUh4DEwLbLqLoF5v1u1OeVz7ba&dispatch=5885d80a13c0db1f8e263663d3faee8d66f31424b43e9a70645c907a6cbd8fb4)
+   Be a device maintaner, Help maintain our website, our apps, or ROM: We always need people to help out with this project and the more devices we can support, the better the ROM and even the website the bigger we will grow. Just fill out [this fourm](http://owndroid.nl/contribute.html) if your intrested 
