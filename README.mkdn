@@ -57,7 +57,7 @@ If you want to build for only one device at a time:
     prebuilts/misc/linux-x86/ccache/ccache -M 50G
 If you want to build for 2 at the same time: -M 75G and 3: -M 100G
 
-(didn't i just make it easy for ya?)
+(Didn't I just make it easy for ya?)
 
 Contribute:
 ---------------
