@@ -56,7 +56,7 @@ sync-j="4" />
 <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
 <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
 <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-<project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.22_r1" />
+<project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
 <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
 <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" />
 <project path="external/ant-glob" name="CyanogenMod/android_external_ant-glob" groups="pdk-cw-fs" />
@@ -219,7 +219,7 @@ sync-j="4" />
 <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" />
 <project path="external/libppp" name="CyanogenMod/android_external_libppp" />
 <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" remote="ln" revision="refs/tags/android-5.0.1_r1" />
-<project path="external/libselinux" name="platform/external/libselinux" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2r1" />
+<project path="external/libselinux" name="platform/external/libselinux" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
 <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" groups="pdk" />
 <project path="external/libssh2" name="platform/external/libssh2" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
 <project path="external/libtar" name="CyanogenMod/android_external_libtar" />
